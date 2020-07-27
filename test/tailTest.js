@@ -1,6 +1,10 @@
-const assertEqual = require('../assertEqual');
+const assert = require('chai').assert;
 const tail = require('../tail');
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-let newTail = tail(words); // no need to capture the return value since we are not checking it
-assertEqual(newTail.length, 3); // original array should still have 3 elements!
+describe("#tail", () => {
+  it("should not modify length of original array", () => {
+    const words = ["Yo Yo", "Lighthouse", "Labs"];
+    tail(words); // no need to capture the return value since we are not checking it
+    assert.strictEqual(words.length, 3);
+  });
+});
