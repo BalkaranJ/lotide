@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@balkaran/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a lotide project from lighthouse labs.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/BalkaranJ/lotide.git"
   },
-  "author": "",
+  "author": "Balkaran Jaswal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BalkaranJ/lotide/issues"
